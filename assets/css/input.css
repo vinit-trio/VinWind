@@ -15,6 +15,7 @@
 * {
   scroll-behavior: smooth;
   scroll-padding: 96px;
+  border-style: dashed;
 }
 
 body {
@@ -25,6 +26,14 @@ body {
   margin: 0 auto;
 }
 
-button{
+button {
   text-transform: inherit;
+}
+
+[data-carousel-slide-to] {
+  background-color: #fff;
+}
+
+[data-carousel-slide-to][aria-current="false"] {
+  opacity: .6;
 }
