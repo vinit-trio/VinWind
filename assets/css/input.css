@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scroll-behavior: smooth;
+  scroll-padding: 96px;
+}
+
+body {
+  font-family: "Jost", serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+button{
+  text-transform: inherit;
+}
